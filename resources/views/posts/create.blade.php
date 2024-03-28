@@ -23,7 +23,6 @@
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <h5>Create Post</h5>
-                Hello Bitch!
                 <form action="{{ url('posts') }}" method="POST">
                     @csrf
                     <div class="form-group">
